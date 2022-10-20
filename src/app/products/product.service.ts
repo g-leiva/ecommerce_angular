@@ -5,7 +5,7 @@ import { map } from 'rxjs/operators';
 
 import { Product } from './models/product.model';
 import { ProductCategory } from './models/product-category.model';
-
+// prueba integración
 export interface GetResponseProducts {
   _embedded: {
     products: Product[];
